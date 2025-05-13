@@ -39,6 +39,7 @@ header ul {
   list-style: none;
   display: flex;
   float: right;
+  position: sticky;
 }
 header .fouces {
   color: var(--red-color);
@@ -217,6 +218,11 @@ section {
   width: 40px;
   margin-bottom: 15px;
 }
+.skill .box i {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: var(--red-color);
+}
 @media (max-width: 767px) {
   .services {
     text-align: center;
@@ -299,6 +305,7 @@ section {
 }
 .rate .box {
   padding: 20px;
+  margin-left: 25px;
 padding-top: 10px;
 background-color: rgb(40, 43, 69);
 }
@@ -416,23 +423,19 @@ margin-left: 18px;
 font-size: 25px;
 text-align: center;
 padding: 10px;
-
+color 
+:white;
 border-radius: 50%;
 font-weight: bolder;
 background-color: rgb(39, 42, 77);
 }
+.connect .social a i{
+  margin-left: 4px;
+}
 .connect .social a:hover{
   background-color: var(--red-color);
 }
-.connect .social  .green{
-color: green;
-}
-.connect .social  .black{
-color: black;
-}
-.connect .social  .blue{
-color: rgb(30, 86, 218);
-}
+
 .connect input a:hover {
   background-color: rgb(230, 142, 142);
 }
